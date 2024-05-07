@@ -35,7 +35,7 @@ case $cmd in
 	    -v pgdata:/var/lib/postgresql/data -p 5432:5432 postgres:9.6-alpine
     # Make sure you understand what's `$?`
     exit $?
-	;;
+    ;;
 
   start | stop) 
     # Check instance status; exit 1 if container has not been created
