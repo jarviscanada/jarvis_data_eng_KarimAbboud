@@ -7,7 +7,7 @@ db_password=$3
 
 # Start docker
 # Make sure you understand the double pipe operator
-sudo systemctl status docker || systemctl start docker
+sudo systemctl status --no-pager docker || systemctl start docker
 
 # Check container status (try the following cmds on terminal)
 docker container inspect jrvs-psql
