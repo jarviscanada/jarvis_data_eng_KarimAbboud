@@ -15,7 +15,7 @@ vmstat_mb=$(vmstat --unit M)
 hostname=$(hostname -f)
 
 # Get hardware data
-memory_free=$(echo "$vmstat_mb" | awk '{print $4}' | tail -n1 | xargs)
+memory_free=$(free -m | head -n2 | tail -n1 | awk '{print $4}' | xargs)
 cpu_idle=$(echo "$vmstat_mb" | tail -n1 | awk '{print $15}' | xargs)
 cpu_kernel=$(echo "$vmstat_mb" | tail -n1 | awk '{print $14}' | xargs)
 disk_io=$(vmstat -d | awk '{print $10}' | tail -n1 | xargs)

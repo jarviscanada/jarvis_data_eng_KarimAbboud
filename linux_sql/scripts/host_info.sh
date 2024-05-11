@@ -24,7 +24,7 @@ cpu_mhz=$(echo "$model_name_line" | awk '{print $7}' | sed 's/[A-Za-z]//g' \
 	| awk '{printf "%.3f", $1*1000}' | xargs)
 l2_cache=$(echo "$lscpu_out" | grep -E "L2 cache:" | awk '{print $3}' | xargs)
 timestamp=$(vmstat -t | tail -n1 | awk '{print $18, $19}' | xargs)
-total_mem=$(vmstat --unit M | tail -n1 | awk '{print $4}' | xargs)
+total_mem=$(free -m | head -n2 | tail -n1 | awk '{print $2}' | xargs)
 
 insert_stmt="INSERT INTO host_info (hostname, cpu_number, \
 	cpu_architecture, cpu_model, cpu_mhz, l2_cache, timestamp, total_mem)
