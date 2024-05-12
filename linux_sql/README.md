@@ -50,7 +50,6 @@ Implementation occurred in five phases:
 ![Linux Cluster Diagram](./assets/cluster_diagram.png)
 
 ## Scripts
-Shell Script and Crontab description and usage
 - `psql_docker.sh`: Used to create an instance of a PSQL database by utilizing a PSQL image pulled from Docker Hub to build a container. The script also manages starting and stopping the instance. To utilize this script, use the following commands:
 ```
 # Create a psql instance
@@ -118,8 +117,6 @@ Database Table Model and Sample Data:
 LCM is available through this GitHub repository and operates through Docker to instantiate a PSQL database for logging node information and usage data. Crontab schedules the regular collection of usage data for each node. LCM operates through Docker and Crontab (common to all unix distros) to provide environment-agnostic monitoring data regardless of which specific distros your nodes use.
 
 # Potential Improvements
-Write at least three things you want to improve 
-e.g. 
 - At the moment, LCM does not provide functionality to update the host_info table for a given node if any hardware in the node happens to change. We aim to automate the procedure for refreshing node information. 
 - In the same vein as the above improvement, we want to provide a means to automate the removal of nodes from the database if they are no longer part of the cluster.
 - Provide comprehensive documentation explaining the process of extracting usage and hardware information if a user wants to monitor additional or differing data within their database.
