@@ -70,7 +70,7 @@ Shell Script and Crontab description and usage
 
 - `crontab`: A Unix job scheduler used to run specific jobs/commands at a user-specified interval. Usage: \
 `crontab -e` will open a text editor for scheduling jobs at a regular interval.
-- `queries.sql`: (EDIT ME EDIT ME EDIT ME describe what business problem you are trying to resolve EDIT ME EDIT ME EDIT ME)
+- `queries.sql`: A file containing three diagnostic queries useful for identifying underperforming or failing nodes.
 
 ## Database Modeling
 LCM stores node information across two tables in the database. The `host_info` table records information about node hardware specifications and assigns an ID to each node. The `host_usage` table records usage and performance information and is populated regularly by each node using a tool like Crontab. 
