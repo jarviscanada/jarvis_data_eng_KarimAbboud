@@ -38,10 +38,10 @@ public class JavaGrepImp implements JavaGrep {
   public List<File> listFiles(String rootDir) {
     List<File> returnList = new ArrayList<>();
     File root = new File(rootDir);
-    File[] fileList = root.listFiles();
+    File[] fileArr = root.listFiles();
 
-    if (fileList != null) {
-      for (final File file : fileList) {
+    if (fileArr != null) {
+      for (final File file : fileArr) {
         if (file.isDirectory()) {
           returnList.addAll(listFiles(file.toString()));
         } else {
@@ -55,6 +55,9 @@ public class JavaGrepImp implements JavaGrep {
 
   @Override
   public List<String> readLines(File inputFile) {
+    if (!inputFile.isFile()) {
+      throw new IllegalArgumentException("Provided inputFile argument is not a file: " + inputFile);
+    }
     List<String> returnList = new ArrayList<>();
 
     try (BufferedReader reader = new BufferedReader(new FileReader(inputFile))) {
@@ -65,7 +68,8 @@ public class JavaGrepImp implements JavaGrep {
         line = reader.readLine();
       }
     } catch (IOException e) {
-      logger.error("Encountered error while reading file. Ensure the specified file exists.", e);
+      logger.error("Encountered error while reading file.", e);
+      throw new RuntimeException(e);
     }
 
     return returnList;
