@@ -22,7 +22,7 @@ public interface JavaGrep {
   /**
    * Read a file and return all the lines
    * @param inputFile file to be read
-   * @return lines
+   * @return string lines from the inputFile
    * @throws IllegalArgumentException if a given inputFile is not a file
    */
   List<String> readLines(File inputFile);
