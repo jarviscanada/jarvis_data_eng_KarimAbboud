@@ -17,6 +17,8 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_KarimAbbou
 
 **Linux Cluster Resource Monitoring App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_KarimAbboud/tree/master/linux_sql)]: Created and deployed a Linux cluster monitoring agent built on a Docker-contained PostgreSQL database to perform data analysis about node performance. Developed a bash script to automate creating/starting/stopping the PSQL Docker container based on arguments to the script. Automated the creation of PSQL database tables using a custom DDL script. Developed shell scripts to connect to the PSQL database and populate tables using Linux hardware monitoring commands. Automated the collection of node usage data on a one-minute interval using crontab. Built and manually tested the app in a Google Cloud Platform (GCP) provisioned virtual machine using Rocky Linux 9 as the operating system.
 
+**Core Java Grep App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_KarimAbboud/tree/master/core_java/grep)]: Developed a Java application that mimics the functionality of Linux's native Grep command to recursively search files and directories to locate matches for a user-provided phrase or regular expression. Utilized the standard Maven directory layout in the process of building the application. Deployed the application using a Docker container built by an image available through Docker Hub. Manually tested the application by comparing its output to the results of Linux's grep command given the same starting directory and search parameters.
+
 
 ## Highlighted Projects
 **Financial Management System**: Worked with an agile team operated through ZenHub to develop a financial management system with a custom GUI built using Javas JFrame class. Participated in stand-ups, sprints, task estimations, and retrospectives. Developed functionality allowing for invoice, receipt, and income source logging. Built functionality to aggregate user-provided data into a balance sheet or income statement. Built the automated testing portion of the projects CI/CD pipeline using Maven to verify commits to the GitHub repository maintained project functionality.
@@ -43,3 +45,5 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_KarimAbbou
 
 ## Miscellaneous
 - Provided one-on-one tutoring and administered formal lessons on the fundamentals of Java programming and object-oriented design to a class of 20 students.
+- Built multiple personal computers for both myself as well as many friends over the past 12 years.
+- Regularly engage in competitive raiding content on a regular schedule in World of Warcraft as part of a team of 26 players.
