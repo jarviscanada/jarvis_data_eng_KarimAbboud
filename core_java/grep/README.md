@@ -1,5 +1,6 @@
 # Java Grep App
 This application mimics the functionality of Linux's command-line utility, grep, by recursively searching through a provided starting directory to locate files that contain a given regex expression and output the specific lines in the files that match the expression. This app is built using Core Java and is available through a Docker image available on Docker Hub (See Deployment section for more information). Application components follow Maven's standard directory layout for Java applications. The application outputs the result of its search into a user-provided file.
+
 Technologies: Core Java, Maven, Docker, IntelliJ IDEA, Git, GitHub
 
 # Quick Start
