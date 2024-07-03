@@ -22,8 +22,8 @@ To run the application, run the following command (You can skip the preceding st
 
 Implementation followed the standard structure of Spring Boot applications:
 - Models of the relevent data were created through three seperate classes detailing the defining features of a person, car, and address. The car and address classes effectively ask as internal objects to define a person's car ownership and home address respectively. Individual instances of the Person class represent the actual data stored in our database.
-- The PersonRepository.java repository was created to extend the basic MongoRepository interface in order to provide common query operations for use by the service layer. Most of the basic functionality for service layer methods was provided by the MongoRepository interface, but custom aggregations provided by this application were created in the PersonRepository interface.
-- The service layer (PersonService.java) essentially held the business logic associated with individual API calls. Most basic database calls did not need robust business logic, but a few notable operations, like record updating and dealing with null returns from database calls were handled here to ensure API calls to certain functions behaved as a user may expect.
+- The `PersonRepository.java` repository was created to extend the basic MongoRepository interface in order to provide common query operations for use by the service layer. Most of the basic functionality for service layer methods was provided by the MongoRepository interface, but custom aggregations provided by this application were created in the PersonRepository interface.
+- The service layer essentially holds the business logic associated with individual API calls. Most basic database calls did not need robust business logic, but a few notable operations, like record updating and dealing with null returns from database calls were handled here to ensure API calls to certain functions behaved as a user may expect.
 - The controller named and defined the API calls available to users and acted as a connection to the service layer which would actually make calls to the database to retrieve requested information.
 - Finally, API calls are made through Postman which acts as the client to make HTTP requests to the controller.
 
@@ -35,7 +35,7 @@ Aggregation testing was performed manually by comparing API call output to the o
 Aggregation testing mostly confirmed the functionality of repository, service, and controller methods, but additional testing was needed to confirm proper output for edge cases. Some examples of this include calls to aggregations that expected an integer return, but sometimes returned null due to no documents in the database matching the aggregation filters. In these cases, some methods had to be modified to return 0 whenever aggregations returned a null value.
 
 # Deployment
-The application is available only through this GitHub repository. Downloading the insurance-mongo folder and running the InsuranceApiApplication.java located in insurance-mongo/src/main/java/ca/jrvs/insurance-api is sufficient to begin using this application on your local machine. If you intend to connect this database to an external IP, please see the instructions for changing the IP and Port connect under "Quick Start" above.
+The application is available only through this GitHub repository. Downloading the insurance-mongo folder and running the `InsuranceApiApplication.java` located in `insurance-mongo/src/main/java/ca/jrvs/insurance-api` is sufficient to begin using this application on your local machine. If you intend to connect this database to an external IP, please see the instructions for changing the IP and Port connect under "Quick Start" above.
 
 # Potential Improvements
 - Writing additional built in aggregation queries as API calls to better reflect the kind of information users would want to frequently grab from such a database. 
