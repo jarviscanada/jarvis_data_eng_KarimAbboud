@@ -45,7 +45,7 @@
     {
       "description": "Developed a Spring Boot API to interface with a car insurance database storing information about people and their vehicle ownership. This API features several custom-built calls to MongoDB queries and aggregations to retrieve relevant business data regarding potential customers. The application is built using Java and the standard Maven directory layout. Postman was used in the process of manual testing to send HTTP requests and verify the efficacy of API calls.",
       "git_url": "/insurance-mongo",
-      "name": "Core Java Grep App"
+      "name": "MongoDB Spring Boot Insurance App"
     }
   ],
   "name": "Karim Abboud",
