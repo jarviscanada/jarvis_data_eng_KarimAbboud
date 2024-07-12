@@ -1,0 +1,18 @@
+# Beverages Dashboard
+This dashboard provides a quick visualization of data for several beverage companies in the United States and their specific products (Coca-Cola, Diet Coke, Sprite, etc.) It provides a quick overview matrix of total sales, units sold, and other metrics like average price, operating profit, and operating margin. In addition, a graphical map showing the distribution of sales across the United States is available alongside a bar chart indicating the percentage market share of each product in any given state in the US. A profit analysis menu provides quick calculations regarding what factors lead to certain products performing better than others. In addition, an AI-based Q&A module is available to translate natural language queries to retrieve information from the data.
+
+Potential Improvements: 
+- The profit analysis module relies on the specific beverage brand to determine what causes profits to increase (Ex. Having the Coca-Cola brand causes profit to rise). In practice, this isn't a useful metric. The provided data set doesn't have enough information regarding product promotions or advertisements to provide a complete analysis of why certain brands generate more profit. Restructuring this dashboard using a more complete data set could provide more accurate assessments.
+- While the provided matrix on this dashboard displays information at a glance, it's fundamentally just a subsection of the overall data set. Due to this, it's not very visually appealing. Replacing this matrix with charts and diagrams would help in this regard.
+
+# Data Professionals Survey Report
+This report visualizes information retrieved from a survey targeted toward Data Professionals regarding each individual's role, age, education, job satisfaction, and other data relating to their professional career. This report provides quick overlays depicting the number of participants, country of origin, average age, and other demographic data. Other visualizations depict the factors that motivate data professionals to switch jobs, a rating of their perceived difficulty in breaking into the data industry, and various gauges of their job satisfaction with factors such as upward mobility, salary, and work/life balance. Additional demographic data, like a breakdown of participants by specific role, is also provided alongside visualizations of salary per role and other fun questions like favorite programming language. 
+
+Potential Improvements:
+- It would be nice if the data set provided more data regarding how many roles each participant has held within the data industry and what prompted such switches to better visualize the correlation between job switching motivators and actual factors that influenced job changing in the past.
+
+# Stocks Dashboard
+This dashboard visualizes stock information for a specific user-provided company. It provides at-a-glance data regarding today's close price, analyst price, 52-week Highs and Lows, the current Market Cap, dividend yield, P/E ratings, and other statistics. It also provides a quick overview graph comparing the user's chosen stock to tech industry giants. Central graphs with a time slicer depict historical stock price and volume data to better gauge trends at a glance.
+
+Potential Improvements:
+- The base dashboard UI does not provide a quick way to switch which stock the dashboard depicts. The user needs to Transform the Data and change the symbol variable to their specific desired ticker. A drop-down menu of commonly viewed tickers and a text-entry field where users can input their chosen ticker would make this dashboard more user-friendly.
