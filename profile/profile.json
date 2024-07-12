@@ -41,6 +41,11 @@
       "description": "Developed a Java application that mimics the functionality of Linux's native Grep command to recursively search files and directories to locate matches for a user-provided phrase or regular expression. Utilized the standard Maven directory layout in the process of building the application. Deployed the application using a Docker container built by an image available through Docker Hub. Manually tested the application by comparing its output to the results of Linux's grep command given the same starting directory and search parameters.",
       "git_url": "/core_java/grep",
       "name": "Core Java Grep App"
+    },
+    {
+      "description": "Developed a Spring Boot API to interface with a car insurance database storing information about people and their vehicle ownership. This API features several custom-built calls to MongoDB queries and aggregations to retrieve relevant business data regarding potential customers. The application is built using Java and the standard Maven directory layout. Postman was used in the process of manual testing to send HTTP requests and verify the efficacy of API calls.",
+      "git_url": "/insurance-mongo",
+      "name": "MongoDB Spring Boot Insurance App"
     }
   ],
   "name": "Karim Abboud",
@@ -57,7 +62,7 @@
   "professional_experience": [
     {
       "company": "Jarvis",
-      "description": "Worked with an agile team in the development process of numerous projects. Developed a Linux cluster monitoring agent to gather data on node performance using Docker, Bash, and PostgreSQL. Participated in daily stand-ups, reviews, and retrospectives.",
+      "description": "Worked with an agile team in the development process of numerous projects. Developed a Linux cluster monitoring agent to gather data on node performance using Docker, Bash, and PostgreSQL. Developed a Java application that emulates the functionality of Linux's native grep command using Maven and Docker. Created a Spring Boot API that interfaces with a MongoDB database to track car insurance information for users in the database. Participated in daily stand-ups, reviews, and retrospectives.",
       "duration": "2024-present",
       "title": "Software Developer"
     },
@@ -71,15 +76,16 @@
   "skills": {
     "competent": [
       "Docker",
+      "MongoDB/NoSQL",
+      "Maven",
+      "Spring Boot",
       "React",
       "TypeScript",
-      "CI/CD",
-      "Maven",
-      "C"
+      "CI/CD"
     ],
     "familiar": [
       "Django",
-      "MongoDB/NoSQL",
+      "C",
       "Jira",
       "Zenhub",
       "jQuery"
@@ -96,5 +102,5 @@
       "Agile/Scrum"
     ]
   },
-  "summary": "I am a recent graduate from Toronto Metropolitan University seeking a full-stack or data engineer role. With four years of education and several projects under my belt, I am passionate about building user-friendly applications that improve efficiency and productivity. My proficiency in Java, Python, and other technologies complements my strong communication and collaboration skills developed during four years in customer service across multiple teams. Prioritizing feedback and utilizing an iterative development process, my empathy for the client experience ensures that my work exceeds their expectations. I thrive in fast-paced environments where my resilience and adaptability shine, and I am eager to bring my skills and enthusiasm to your team by delivering exceptional software solutions."
+  "summary": "I am a recent graduate from Toronto Metropolitan University seeking a DevOps or data engineer role. With four years of education and several projects under my belt, I am passionate about building user-friendly applications that improve efficiency and productivity. My proficiency in Java, Python, and other technologies complements my strong communication and collaboration skills developed during four years in customer service across multiple teams. Prioritizing feedback and utilizing an iterative development process, my empathy for the client experience ensures that my work exceeds their expectations. I thrive in fast-paced environments where my resilience and adaptability shine, and I am eager to bring my skills and enthusiasm to your team by delivering exceptional software solutions."
 }
