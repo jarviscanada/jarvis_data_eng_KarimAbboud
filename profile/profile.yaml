@@ -12,15 +12,15 @@ skills:
     - JavaScript
     - Linux/Bash
     - HTML/CSS
-    - RDBMS/SQL
-    - Git
-    - GitHub
+    - RDBMS/SQL (Oracle / PostgreSQL)
+    - Git/GitHub
     - Agile/Scrum
   competent:
     - Docker
     - MongoDB/NoSQL
     - Maven
     - Spring Boot
+    - Power BI
     - React
     - TypeScript
     - CI/CD
@@ -42,6 +42,10 @@ jarvis_projects:
   - name: "MongoDB Spring Boot Insurance App"
     git_url: "/insurance-mongo"
     description: Developed a Spring Boot API to interface with a car insurance database storing information about people and their vehicle ownership. This API features several custom-built calls to MongoDB queries and aggregations to retrieve relevant business data regarding potential customers. The application is built using Java and the standard Maven directory layout. Postman was used in the process of manual testing to send HTTP requests and verify the efficacy of API calls.
+  - name: "Power BI Dashboards"
+    git_url: "/power_bi"
+    description: Constructed three Power BI dashboards, graphically depicting three sets of data. The beverage dashboard visualized a dataset describing the sales of various well-known beverage brands and their respective products in the United States. Another dashboard served as a report of data from a survey targeted at data professionals regarding their past education, experience, difficulty breaking into the industry, general happiness in their role, and the factors motivating them to seek new employment. The last dashboard visualized data pulled from the Alpha Vantage API, showcasing at-a-glance information on the current value of a particular user-chosen stock and its historical trends.
+
 
 # Personal projects
 highlighted_projects:
@@ -58,7 +62,7 @@ highlighted_projects:
 # Professional experience
 professional_experience:
   - title: "Software Developer"
-    company: "Jarvis"
+    company: "Jarvis Consulting Group"
     duration: "2024-present"
     description: "Worked with an agile team in the development process of numerous projects. Developed a Linux cluster monitoring agent to gather data on node performance using Docker, Bash, and PostgreSQL. Developed a Java application that emulates the functionality of Linux's native grep command using Maven and Docker. Created a Spring Boot API that interfaces with a MongoDB database to track car insurance information for users in the database. Participated in daily stand-ups, reviews, and retrospectives."
   - title: "Customer Service Cashier"
@@ -78,9 +82,9 @@ education:
       - "Dean's List (2020, 2021)"
       - "Dean's List (2021, 2022)"
 
-# Relevant Coursework
+# Miscellaneous
 others:
-  - title: "Peer Tutor - Computer Science"
+  - title: "Miscellaneous"
     bullets:
       - "Provided one-on-one tutoring and administered formal lessons on the fundamentals of Java programming and object-oriented design to a class of 20 students."
       - "Built multiple personal computers for both myself as well as many friends over the past 12 years."

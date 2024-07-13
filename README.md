@@ -4,9 +4,9 @@ I am a recent graduate from Toronto Metropolitan University seeking a DevOps or 
 
 ## Skills
 
-**Proficient:** Java, Python, JavaScript, Linux/Bash, HTML/CSS, RDBMS/SQL, Git, GitHub, Agile/Scrum
+**Proficient:** Java, Python, JavaScript, Linux/Bash, HTML/CSS, RDBMS/SQL (Oracle / PostgreSQL), Git/GitHub, Agile/Scrum
 
-**Competent:** Docker, MongoDB/NoSQL, Maven, Spring Boot, React, TypeScript, CI/CD
+**Competent:** Docker, MongoDB/NoSQL, Maven, Spring Boot, Power BI, React, TypeScript, CI/CD
 
 **Familiar:** Django, C, Jira, Zenhub, jQuery
 
@@ -21,6 +21,8 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_KarimAbbou
 
 **MongoDB Spring Boot Insurance App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_KarimAbboud/tree/master/insurance-mongo)]: Developed a Spring Boot API to interface with a car insurance database storing information about people and their vehicle ownership. This API features several custom-built calls to MongoDB queries and aggregations to retrieve relevant business data regarding potential customers. The application is built using Java and the standard Maven directory layout. Postman was used in the process of manual testing to send HTTP requests and verify the efficacy of API calls.
 
+**Power BI Dashboards** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_KarimAbboud/tree/master/power_bi)]: Constructed three Power BI dashboards, graphically depicting three sets of data. The beverage dashboard visualized a dataset describing the sales of various well-known beverage brands and their respective products in the United States. Another dashboard served as a report of data from a survey targeted at data professionals regarding their past education, experience, difficulty breaking into the industry, general happiness in their role, and the factors motivating them to seek new employment. The last dashboard visualized data pulled from the Alpha Vantage API, showcasing at-a-glance information on the current value of a particular user-chosen stock and its historical trends.
+
 
 ## Highlighted Projects
 **Financial Management System**: Worked with an agile team operated through ZenHub to develop a financial management system with a custom GUI built using Javas JFrame class. Participated in stand-ups, sprints, task estimations, and retrospectives. Developed functionality allowing for invoice, receipt, and income source logging. Built functionality to aggregate user-provided data into a balance sheet or income statement. Built the automated testing portion of the projects CI/CD pipeline using Maven to verify commits to the GitHub repository maintained project functionality.
@@ -32,7 +34,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_KarimAbbou
 
 ## Professional Experiences
 
-**Software Developer, Jarvis (2024-present)**: Worked with an agile team in the development process of numerous projects. Developed a Linux cluster monitoring agent to gather data on node performance using Docker, Bash, and PostgreSQL. Developed a Java application that emulates the functionality of Linux's native grep command using Maven and Docker. Created a Spring Boot API that interfaces with a MongoDB database to track car insurance information for users in the database. Participated in daily stand-ups, reviews, and retrospectives.
+**Software Developer, Jarvis Consulting Group (2024-present)**: Worked with an agile team in the development process of numerous projects. Developed a Linux cluster monitoring agent to gather data on node performance using Docker, Bash, and PostgreSQL. Developed a Java application that emulates the functionality of Linux's native grep command using Maven and Docker. Created a Spring Boot API that interfaces with a MongoDB database to track car insurance information for users in the database. Participated in daily stand-ups, reviews, and retrospectives.
 
 **Customer Service Cashier, Longo Brothers Fruit Markets Inc. (2016-2020)**: Provided exceptional customer service in the transaction process, offering concise and accurate answers to any questions about our products and troubleshooting issues at point-of-sale (POS) terminals. Assisted in various other departments, including Produce, Dairy, Grocery, and the Garden Center, garnering a variety of experience working with multiple teams.
 
