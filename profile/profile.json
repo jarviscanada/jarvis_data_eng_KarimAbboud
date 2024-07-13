@@ -16,7 +16,7 @@
   "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_KarimAbboud",
   "highlighted_projects": [
     {
-      "description": "Worked with an agile team operated through ZenHub to develop a financial management system with a custom GUI built using Javas JFrame class. Participated in stand-ups, sprints, task estimations, and retrospectives. Developed functionality allowing for invoice, receipt, and income source logging. Built functionality to aggregate user-provided data into a balance sheet or income statement. Built the automated testing portion of the projects CI/CD pipeline using Maven to verify commits to the GitHub repository maintained project functionality.",
+      "description": "Worked with an agile team operated through ZenHub to develop a financial management system with a custom GUI built using Java's JFrame class. Participated in stand-ups, sprints, task estimations, and retrospectives. Developed functionality allowing for invoice, receipt, and income source logging. Built functionality to aggregate user-provided data into a balance sheet or income statement. Built the automated testing portion of the projects CI/CD pipeline using GitHub Actions to verify commits to the GitHub repository maintained project functionality.",
       "git_url": null,
       "name": "Financial Management System"
     },
@@ -26,7 +26,7 @@
       "name": "Replica World of Warcraft Database"
     },
     {
-      "description": "Built and manually tested an interpreter for a custom programming language template using Java and Java Compiler Compiler (JavaCC). Provided variable and method functionality using Javas HashMap class to create a symbol table for storing variable information. Implemented call stack functionality into the language using Javas Stack class to simulate operation through multiple nested subroutines.",
+      "description": "Built and manually tested an interpreter for a custom programming language template using Java and Java Compiler Compiler (JavaCC). Provided variable and method functionality using Java's HashMap class to create a symbol table for storing variable information. Implemented call stack functionality into the language using Java's Stack class to simulate operation through multiple nested subroutines.",
       "git_url": null,
       "name": "Custom Language Interpreter"
     }
@@ -57,9 +57,9 @@
   "others": [
     {
       "bullets": [
-        "Provided one-on-one tutoring and administered formal lessons on the fundamentals of Java programming and object-oriented design to a class of 20 students.",
+        "Provided one-on-one tutoring and administered formal lessons on the fundamentals of Java programming and object-oriented design to a class of ~20 students.",
         "Built multiple personal computers for both myself as well as many friends over the past 12 years.",
-        "Regularly engage in competitive raiding content on a regular schedule in World of Warcraft as part of a team of 26 players."
+        "Regularly engage in competitive raiding content on a regular schedule in World of Warcraft as part of a team of ~26 players."
       ],
       "title": "Miscellaneous"
     }
@@ -67,7 +67,7 @@
   "professional_experience": [
     {
       "company": "Jarvis Consulting Group",
-      "description": "Worked with an agile team in the development process of numerous projects. Developed a Linux cluster monitoring agent to gather data on node performance using Docker, Bash, and PostgreSQL. Developed a Java application that emulates the functionality of Linux's native grep command using Maven and Docker. Created a Spring Boot API that interfaces with a MongoDB database to track car insurance information for users in the database. Participated in daily stand-ups, reviews, and retrospectives.",
+      "description": "Worked with an agile team in the development process of numerous projects. Developed a Linux cluster monitoring agent to gather data on node performance using Docker, Bash, and PostgreSQL. Developed a Java application that emulates the functionality of Linux's native grep command using Maven and Docker. Created a Spring Boot API that interfaces with a MongoDB database to track car insurance information for users in the database. Translated a number of datasets into Power BI dashboards to visualize data in a user-friendly and visually appealing manner. Participated in daily stand-ups, reviews, and retrospectives.",
       "duration": "2024-present",
       "title": "Software Developer"
     },

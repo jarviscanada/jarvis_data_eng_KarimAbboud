@@ -25,16 +25,16 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_KarimAbbou
 
 
 ## Highlighted Projects
-**Financial Management System**: Worked with an agile team operated through ZenHub to develop a financial management system with a custom GUI built using Javas JFrame class. Participated in stand-ups, sprints, task estimations, and retrospectives. Developed functionality allowing for invoice, receipt, and income source logging. Built functionality to aggregate user-provided data into a balance sheet or income statement. Built the automated testing portion of the projects CI/CD pipeline using Maven to verify commits to the GitHub repository maintained project functionality.
+**Financial Management System**: Worked with an agile team operated through ZenHub to develop a financial management system with a custom GUI built using Java's JFrame class. Participated in stand-ups, sprints, task estimations, and retrospectives. Developed functionality allowing for invoice, receipt, and income source logging. Built functionality to aggregate user-provided data into a balance sheet or income statement. Built the automated testing portion of the projects CI/CD pipeline using GitHub Actions to verify commits to the GitHub repository maintained project functionality.
 
 **Replica World of Warcraft Database**: Constructed an ER diagram to model the structure of a World of Warcraft user account database. Built database through SQL statements using Oracle SQL Developer. Deployed database through Docker to provide an isolated testing environment and compatibility across multiple workstations.
 
-**Custom Language Interpreter**: Built and manually tested an interpreter for a custom programming language template using Java and Java Compiler Compiler (JavaCC). Provided variable and method functionality using Javas HashMap class to create a symbol table for storing variable information. Implemented call stack functionality into the language using Javas Stack class to simulate operation through multiple nested subroutines.
+**Custom Language Interpreter**: Built and manually tested an interpreter for a custom programming language template using Java and Java Compiler Compiler (JavaCC). Provided variable and method functionality using Java's HashMap class to create a symbol table for storing variable information. Implemented call stack functionality into the language using Java's Stack class to simulate operation through multiple nested subroutines.
 
 
 ## Professional Experiences
 
-**Software Developer, Jarvis Consulting Group (2024-present)**: Worked with an agile team in the development process of numerous projects. Developed a Linux cluster monitoring agent to gather data on node performance using Docker, Bash, and PostgreSQL. Developed a Java application that emulates the functionality of Linux's native grep command using Maven and Docker. Created a Spring Boot API that interfaces with a MongoDB database to track car insurance information for users in the database. Participated in daily stand-ups, reviews, and retrospectives.
+**Software Developer, Jarvis Consulting Group (2024-present)**: Worked with an agile team in the development process of numerous projects. Developed a Linux cluster monitoring agent to gather data on node performance using Docker, Bash, and PostgreSQL. Developed a Java application that emulates the functionality of Linux's native grep command using Maven and Docker. Created a Spring Boot API that interfaces with a MongoDB database to track car insurance information for users in the database. Translated a number of datasets into Power BI dashboards to visualize data in a user-friendly and visually appealing manner. Participated in daily stand-ups, reviews, and retrospectives.
 
 **Customer Service Cashier, Longo Brothers Fruit Markets Inc. (2016-2020)**: Provided exceptional customer service in the transaction process, offering concise and accurate answers to any questions about our products and troubleshooting issues at point-of-sale (POS) terminals. Assisted in various other departments, including Produce, Dairy, Grocery, and the Garden Center, garnering a variety of experience working with multiple teams.
 
@@ -48,6 +48,6 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_KarimAbbou
 
 
 ## Miscellaneous
-- Provided one-on-one tutoring and administered formal lessons on the fundamentals of Java programming and object-oriented design to a class of 20 students.
+- Provided one-on-one tutoring and administered formal lessons on the fundamentals of Java programming and object-oriented design to a class of ~20 students.
 - Built multiple personal computers for both myself as well as many friends over the past 12 years.
-- Regularly engage in competitive raiding content on a regular schedule in World of Warcraft as part of a team of 26 players.
+- Regularly engage in competitive raiding content on a regular schedule in World of Warcraft as part of a team of ~26 players.
