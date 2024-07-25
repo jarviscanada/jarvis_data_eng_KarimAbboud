@@ -4,11 +4,11 @@ I am a recent graduate from Toronto Metropolitan University seeking a DevOps or 
 
 ## Skills
 
-**Proficient:** Java, Python, JavaScript, Linux/Bash, HTML/CSS, RDBMS/SQL (Oracle / PostgreSQL), Git/GitHub, Agile/Scrum
+**Proficient:** Java, Python, Linux/Bash, Git/GitHub, Agile/Scrum
 
-**Competent:** Docker, MongoDB/NoSQL, Maven, Spring Boot, Power BI, React, TypeScript, CI/CD
+**Competent:** Docker, RDBMS/SQL (Oracle / PostgreSQL), MongoDB/NoSQL, Maven, Power BI, CI/CD, HTML/CSS
 
-**Familiar:** Django, C, Jira, Zenhub, jQuery
+**Familiar:** Spring Boot, JavaScript, React, Django, C, Jira, Zenhub, jQuery
 
 ## Jarvis Projects
 

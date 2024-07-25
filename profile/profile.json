@@ -81,15 +81,17 @@
   "skills": {
     "competent": [
       "Docker",
+      "RDBMS/SQL (Oracle / PostgreSQL)",
       "MongoDB/NoSQL",
       "Maven",
-      "Spring Boot",
       "Power BI",
-      "React",
-      "TypeScript",
-      "CI/CD"
+      "CI/CD",
+      "HTML/CSS"
     ],
     "familiar": [
+      "Spring Boot",
+      "JavaScript",
+      "React",
       "Django",
       "C",
       "Jira",
@@ -99,10 +101,7 @@
     "proficient": [
       "Java",
       "Python",
-      "JavaScript",
       "Linux/Bash",
-      "HTML/CSS",
-      "RDBMS/SQL (Oracle / PostgreSQL)",
       "Git/GitHub",
       "Agile/Scrum"
     ]
